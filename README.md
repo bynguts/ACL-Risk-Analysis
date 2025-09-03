@@ -6,14 +6,14 @@
 Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament (ACL) pada atlet perguruan tinggi menggunakan dataset `collegiate_athlete_injury_dataset.csv` yang berisi 200 entri. Motivasi pribadi saya berasal dari pengalaman cedera ACL, yang meninggalkan trauma emosional, rasa marah, dan ketakutan untuk kembali bermain basket atau olahraga lainnya. Permasalahan spesifiknya adalah tingginya risiko cedera ACL akibat faktor seperti intensitas latihan dan jadwal pertandingan, yang sering diabaikan oleh atlet perguruan tinggi. Pengalaman ini mendorong saya untuk mengembangkan solusi data-driven guna mengurangi risiko atlet lain menghadapi tantangan serupa. Pendekatan ini menggunakan IBM Granite untuk menggali 10 insight kuantitatif, diikuti visualisasi dengan Pandas, Seaborn, dan Plotly (termasuk plot interaktif HTML), dengan hasil disusun dalam `insights_summary.txt` beserta 6 rekomendasi berbasis AI.
 
 ## Raw Dataset
-- Raw dataset: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv)
-- Sumber: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset
-- Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
+- **Raw dataset**: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv)
+- **Sumber**: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset
+- **Deskripsi**: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
 ## Insight & Findings
-- Rata-rata usia atlet berisiko tinggi: 21 tahun, menunjukkan kelompok usia muda sebagai fokus pencegahan.
+- Rata-rata usia atlet berisiko tinggi 21 tahun: Menunjukkan kelompok usia muda sebagai fokus pencegahan.
 - 51% atlet laki-laki di posisi guard memiliki risiko ACL tinggi: Segmentasi gender dan posisi ini menggarisbawahi kerentanan tertentu.
-- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score`: 0.36: Menunjukkan hubungan moderat, mengindikasikan perlunya pengaturan intensitas latihan untuk mengurangi risiko.
+- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score` 0.36: Menunjukkan hubungan moderat, mengindikasikan perlunya pengaturan intensitas latihan untuk mengurangi risiko.
 - Atlet dengan lebih dari 2 pertandingan per minggu memiliki risiko lebih tinggi: Frekuensi pertandingan menjadi faktor kunci cedera.
 - `Rest_Between_Events_Days` kurang dari 2 hari meningkatkan risiko cedera: Jeda istirahat singkat signifikan memengaruhi kesehatan sendi.
 - Risiko ACL tinggi berkorelasi dengan penurunan `Team_Contribution_Score`: Menyoroti dampak cedera pada performa tim.
@@ -54,6 +54,6 @@ Proses ini didokumentasikan lengkap di notebook [ACL_Risk_Analysis.ipynb](ACL_Ri
 - Sistem pencegahan terintegrasi berbasis AI untuk penyerang.
 
 ## How to Run
-1. Clone repository: `git clone https://github.com/bynguts/ACL-Risk-Analysis.git`
-2. Buka notebook di Colab: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb)
-3. Lihat visualisasi interaktif: [acl_risk_training_interactive.html](visualizations/acl_risk_training_interactive.html)
+1. **Clone repository**: `git clone https://github.com/bynguts/ACL-Risk-Analysis.git`
+2. **Buka notebook di Colab**: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb)
+3. **Lihat visualisasi interaktif**: [acl_risk_training_interactive.html](visualizations/acl_risk_training_interactive.html)
