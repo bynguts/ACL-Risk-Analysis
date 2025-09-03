@@ -24,7 +24,7 @@ Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunaka
 - Rata-rata usia berisiko: 22 tahun.
 - 60% perempuan penyerang berisiko tinggi.
 - Korelasi Training_Intensity: 0.65.
-- >2 pertandingan/minggu meningkatkan risiko.
+- Lebih dari 2 pertandingan/minggu meningkatkan risiko.
 - Rest_Between_Events_Days <2 tingkatkan risiko.
 - Risiko tinggi turunkan Team_Contribution_Score.
 
@@ -43,5 +43,5 @@ Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunaka
 
 ## Cara Menjalankan
 1. Clone repository: `git clone https://github.com/username/Capstone_ACL_Analysis.git`
-2. Buka notebook di Colab: [capstone_acl_analysis.ipynb](capstone_acl_analysis.ipynb)
+2. Buka notebook di Colab: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb))
 3. Lihat visualisasi interaktif: [acl_risk_training_interactive.html](visualizations/acl_risk_training_interactive.html)
