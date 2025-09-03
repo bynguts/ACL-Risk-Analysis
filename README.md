@@ -1,4 +1,4 @@
-# Capstone-ACL-Risk-Analysis
+# ACL-Risk-Analysis
 
 # Capstone Project: Analisis Risiko Cedera ACL pada Atlet Perguruan Tinggi
 
