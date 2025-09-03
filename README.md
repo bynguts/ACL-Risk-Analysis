@@ -42,6 +42,6 @@ Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunaka
 - Pandas, Seaborn, Matplotlib untuk analisis dan visualisasi.
 
 ## Cara Menjalankan
-1. Clone repository: `git clone https://github.com/username/Capstone_ACL_Analysis.git`
+1. Clone repository: `git clone https://github.com/bynguts/ACL-Risk-Analysis.git`
 2. Buka notebook di Colab: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb))
 3. Lihat visualisasi interaktif: [acl_risk_training_interactive.html](visualizations/acl_risk_training_interactive.html)
