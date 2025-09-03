@@ -11,9 +11,9 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 - Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
 ## Insight & Findings
-- Rata-rata usia atlet berisiko tinggi: 22 tahun.
-- 60% atlet perempuan di posisi penyerang memiliki risiko ACL tinggi.
-- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score`: 0.65, menunjukkan intensitas latihan signifikan.
+- Rata-rata usia atlet berisiko tinggi: 21 tahun.
+- 51% atlet perempuan di posisi guard memiliki risiko ACL tinggi.
+- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score`: 0.36, menunjukkan intensitas latihan signifikan.
 - Atlet dengan lebih dari 2 pertandingan per minggu memiliki risiko lebih tinggi.
 - `Rest_Between_Events_Days` kurang dari 2 hari meningkatkan risiko cedera.
 - Risiko ACL tinggi berkorelasi dengan penurunan `Team_Contribution_Score`.
