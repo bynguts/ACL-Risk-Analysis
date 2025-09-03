@@ -6,7 +6,7 @@
 Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament (ACL) pada atlet perguruan tinggi menggunakan dataset `collegiate_athlete_injury_dataset.csv` yang berisi 200 entri. Motivasi pribadi saya berasal dari pengalaman pribadi mengalami cedera ACL, yang meninggalkan trauma emosional, rasa marah, dan ketakutan untuk kembali bermain basket bahkan olahraga secara keseluruhan. Pengalaman ini mendorong saya untuk mengembangkan solusi data-driven guna mengurangi resiko atlet lain menghadapi tantangan serupa. Pendekatan yang digunakan melibatkan IBM Granite untuk menggali insight dari 10 *queries* kuantitatif, diikuti oleh visualisasi data dengan Pandas, Seaborn, dan Plotly (termasuk 1 plot interaktif HTML). Hasilnya disusun dalam `insights_summary.txt` dengan 6 rekomendasi berbasis AI.
 
 ## Raw Dataset
-- Raw dataset: [collegiate_athlete_injury_dataset.csv](data/collegiate_athlete_injury_dataset.csv)
+- Raw dataset: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv)
 - Sumber: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset]
 - Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
