@@ -7,7 +7,7 @@ Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunaka
 
 ## Struktur Repository
 - **Root**: 
-  - [capstone_acl_analysis.ipynb](ACL Risk Analysis.ipynb): Notebook utama dengan kode analisis.
+  - [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb)): Notebook utama dengan kode analisis.
 - **/docs/**:
   - [insights_summary.txt](docs/insights_summary.txt): Ringkasan insight dan rekomendasi.
 - **/visualizations/**:
