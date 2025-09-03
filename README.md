@@ -7,7 +7,7 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 
 ## Raw Dataset
 - Raw dataset: [collegiate_athlete_injury_dataset.csv](data/collegiate_athlete_injury_dataset.csv)
-- Sumber: Disediakan oleh webinar SDI [atau Link Kaggle jika ada, misalnya https://www.kaggle.com/dataset/nama-dataset]
+- Sumber: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset]
 - Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
 ## Insight & Findings
@@ -49,6 +49,6 @@ Proyek ini memanfaatkan IBM Granite, model AI berbasis LLM, yang diintegrasikan 
 - Sistem pencegahan terintegrasi berbasis AI untuk penyerang.
 
 ## How to Run
-1. Clone repository: `git clone https://github.com/username/Capstone_ACL_Analysis.git`
+1. Clone repository: `git clone https://github.com/bynguts/ACL-Risk-Analysis.git`
 2. Buka notebook di Colab: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb)
 3. Lihat visualisasi interaktif: [acl_risk_training_interactive.html](visualizations/acl_risk_training_interactive.html)
