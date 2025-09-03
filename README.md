@@ -17,7 +17,7 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 - Atlet dengan lebih dari 2 pertandingan per minggu memiliki risiko lebih tinggi.
 - `Rest_Between_Events_Days` kurang dari 2 hari meningkatkan risiko cedera.
 - Risiko ACL tinggi berkorelasi dengan penurunan `Team_Contribution_Score`.
-- Visualisasi pendukung: [Distribusi Usia](visualizations/acl_age_distribution_enhanced.png), [Scatter Plot Interaktif](visualizations/acl_risk_training_interactive.html), dll. (lihat /visualizations/).
+- Visualisasi pendukung: [Distribusi Usia](visualizations/acl_age_distribution_enhanced.png), [Scatter Plot Interaktif](visualizations/acl_risk_training_interactive.html), dll. (lihat [visualizations](visualizations)).
 - Detail lengkap: [insights_summary.txt](docs/insights_summary.txt)
 
 ## AI Support Explanation
