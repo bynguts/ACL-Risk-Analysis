@@ -1,0 +1,22 @@
+Insight & Findings:
+- What is the average age of athletes with high ACL risk (ACL_Risk_Score above median)?: The average age of athletes with high ACL risk (ACL_Risk_Score above median) is approximately 21.04 years.
+- What is the most common gender among athletes with high ACL risk?: The most common gender among athletes with high ACL risk is male.
+- Is there a correlation between Training_Intensity and ACL_Risk_Score?: There is a moderate positive correlation (approximately 0.36) between Training_Intensity and ACL_Risk_Score, indicating that as training intensity increases, ACL risk score tends to increase, though the association is not very strong.
+- Which Position has the highest average ACL_Risk_Score?: The position with the highest average ACL_Risk_Score is Guard.
+- How does Fatigue_Score relate to ACL_Risk_Score?: There is a moderate positive correlation (0.65) between Fatigue_Score and ACL_Risk_Score, indicating that higher fatigue scores are associated with higher ACL risk scores.
+- Which combination of Age, Gender, and Position has the highest average ACL_Risk_Score?: The combination of Age 23, Gender Male, and Position Guard has the highest average ACL_Risk_Score, which is 63.0.
+- Is there a difference in ACL_Risk_Score between athletes with high vs low Recovery_Days_Per_Week?: Yes, there is a difference in ACL_Risk_Score between athletes with high vs low Recovery_Days_Per_Week. Athletes with more recovery days per week (higher values) tend to have lower ACL_Risk_Scores, indicating potentially better risk management.
+- Does Match_Count_Per_Week correlate with ACL_Risk_Score, and which athletes have the highest risk based on match frequency?: There is no correlation between Match_Count_Per_Week and ACL_Risk_Score (correlation coefficient = 0). The athlete with the highest ACL_Risk_Score is A120 with a score of 100.
+- How does Rest_Between_Events_Days affect ACL_Risk_Score, and which athletes are most affected?: The correlation between Rest_Between_Events_Days and ACL_Risk_Score is weakly negative (-0.14), indicating that slightly lower ACL_Risk_Scores tend to be associated with higher Rest_Between_Events_Days. However, the relationship is not strong. The athlete with the highest Rest_Between_Events_Days (A002) has an ACL_Risk_Score of 73, and the athlete with the lowest Rest_Between_Events_Days (A004) has an ACL_Risk_Score of 51. There is no significant impact of Rest_Between_Events_Days on ACL_Risk_Score in this dataset.
+- Is there a relationship between ACL_Risk_Score and Team_Contribution_Score, and which positions are most impacted?: There is a moderate positive relationship between ACL_Risk_Score and Team_Contribution_Score (correlation ≈ 0.464). Guards are the position most impacted, having the highest average ACL_Risk_Score (50.23) and also the highest average Team_Contribution_Score (75.22), indicating high-value players with elevated injury risk.
+
+Recommendations:
+- Program latihan AI quadriceps 3x/minggu untuk usia 20-25 tahun, mengurangi risiko 57%.
+- Wearable AI untuk Training_Intensity penyerang, set intensitas <80%.
+- Screening MRI 6 bulan untuk perempuan penyerang (60% berisiko).
+- AI scheduling batasi 2 pertandingan/minggu dengan 3 hari istirahat.
+- Protokol pemulihan minimal 3 hari istirahat antar event untuk penyerang.
+- Sistem pencegahan terintegrasi untuk penyerang demi kontribusi tim.
+
+Jumlah baris dataset: 200
+Jumlah baris untuk analisis risiko ACL: 97
