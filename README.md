@@ -7,7 +7,7 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 
 ## Raw Dataset
 - Raw dataset: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv)
-- Sumber: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset]
+- Sumber: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset
 - Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
 ## Insight & Findings
