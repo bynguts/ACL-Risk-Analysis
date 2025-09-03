@@ -3,7 +3,7 @@
 # Capstone Project: Analisis Risiko Cedera ACL pada Atlet Perguruan Tinggi
 
 ## Deskripsi
-Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunakan dataset `collegiate_athlete_injury_dataset.csv` (200 entri). Dengan IBM Granite untuk insight, Plotly untuk visualisasi interaktif, dan Pandas/Seaborn untuk analisis, proyek ini memberikan rekomendasi berbasis AI untuk mencegah cedera ACL.
+Proyek ini menganalisis risiko cedera ACL pada atlet perguruan tinggi menggunakan dataset collegiate_athlete_injury_dataset.csv (200 entri). Dengan IBM Granite untuk insight, Plotly untuk visualisasi interaktif, dan Pandas/Seaborn untuk analisis, proyek ini memberikan rekomendasi berbasis AI untuk mencegah cedera ACL.
 
 ## Struktur Repository
 - **Root**: 
