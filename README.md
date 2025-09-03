@@ -11,14 +11,14 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 - Deskripsi: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
 ## Insight & Findings
-- Rata-rata usia atlet berisiko tinggi: 21 tahun.
-- 51% atlet perempuan di posisi guard memiliki risiko ACL tinggi.
-- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score`: 0.36, menunjukkan intensitas latihan signifikan.
-- Atlet dengan lebih dari 2 pertandingan per minggu memiliki risiko lebih tinggi.
-- `Rest_Between_Events_Days` kurang dari 2 hari meningkatkan risiko cedera.
-- Risiko ACL tinggi berkorelasi dengan penurunan `Team_Contribution_Score`.
-- Visualisasi pendukung: [Distribusi Usia](visualizations/acl_age_distribution_enhanced.png), [Scatter Plot Interaktif](visualizations/acl_risk_training_interactive.html), dll. (lihat [visualizations](visualizations)).
-- Detail lengkap: [insights_summary.txt](docs/insights_summary.txt)
+- Rata-rata usia atlet berisiko tinggi: 21 tahun, menunjukkan kelompok usia muda sebagai fokus pencegahan.
+- 51% atlet laki-laki di posisi guard memiliki risiko ACL tinggi: Segmentasi gender dan posisi ini menggarisbawahi kerentanan tertentu.
+- Korelasi antara `Training_Intensity` dan `ACL_Risk_Score`: 0.36: Menunjukkan hubungan moderat, mengindikasikan perlunya pengaturan intensitas latihan untuk mengurangi risiko.
+- Atlet dengan lebih dari 2 pertandingan per minggu memiliki risiko lebih tinggi: Frekuensi pertandingan menjadi faktor kunci cedera.
+- `Rest_Between_Events_Days` kurang dari 2 hari meningkatkan risiko cedera: Jeda istirahat singkat signifikan memengaruhi kesehatan sendi.
+- Risiko ACL tinggi berkorelasi dengan penurunan `Team_Contribution_Score`: Menyoroti dampak cedera pada performa tim.
+- Visualisasi pendukung: Lihat Distribusi Usia, Scatter Plot Interaktif, dan lainnya di folder [visualizations](visualizations).
+Detail lengkap: [insights_summary.txt](docs/insights_summary.txt) berisi analisis mendalam dan rekomendasi.
 
 ## AI Support Explanation
 Proyek ini memanfaatkan IBM Granite, model AI berbasis LLM, yang diintegrasikan melalui Google Colab untuk mendukung analisis. Granite digunakan untuk:
