@@ -22,9 +22,13 @@ Detail lengkap: [insights_summary.txt](docs/insights_summary.txt) berisi analisi
 
 ## AI Support Explanation
 Proyek ini memanfaatkan IBM Granite, model AI berbasis LLM, yang diintegrasikan melalui Google Colab untuk mendukung analisis. Granite digunakan untuk:
-- **Classification**: Mengelompokkan atlet berisiko tinggi berdasarkan `ACL_Risk_Score` (misalnya, filter `df[df['ACL_Risk_Score'] > df['ACL_Risk_Score'].quantile(0.75)]`).
-- **Summarization**: Menyusun 10 *queries* menjadi insight kuantitatif (misalnya, `df.groupby(['Gender', 'Position'])['ACL_Risk_Score'].mean()`).
-- **Analisis Data**: Membantu menghasilkan kode untuk visualisasi (Seaborn untuk heatmap, Plotly untuk scatter interaktif). Proses ini dijalankan di notebook [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb), yang mencakup langkah-langkah analisis lengkap.
+
+- Classification: Mengelompokkan atlet berisiko tinggi berdasarkan `ACL_Risk_Score` dengan menghasilkan filter seperti df[df['ACL_Risk_Score'] > df['ACL_Risk_Score'].quantile(0.75)].
+- Summarization: Menyusun 10 queries menjadi insight kuantitatif dengan kode seperti df.groupby(['Gender', 'Position'])['ACL_Risk_Score'].mean().
+- Analisis Data: Membantu menghasilkan kode visualisasi secara otomatis, seperti Seaborn untuk heatmap dan Plotly untuk scatter interaktif (termasuk `acl_risk_training_interactive.html`).
+- Data Exploration: Mendukung eksplorasi awal dataset dengan menampilkan kolom, statistik, dan contoh data (misalnya df.columns, df.describe()) untuk memahami struktur data.
+- Error Handling: Menangani error pada queries dengan mekanisme `try-except`, memastikan analisis tetap berjalan meskipun ada masalah.
+- Output Structuring: Mengorganisasi hasil queries ke dalam format terstruktur, disimpan dalam insights_summary.txt untuk presentasi yang jelas. Proses ini didokumentasikan lengkap di notebook [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb).
 
 ## Struktur Repository
 - **Root**: [ACL_Risk_Analysis.ipynb](ACL_Risk_Analysis.ipynb): Notebook utama dengan kode analisis.
