@@ -38,7 +38,7 @@ Proyek ini memanfaatkan IBM Granite, model AI berbasis LLM, yang diintegrasikan 
   - [Frekuensi Pertandingan](visualizations/acl_risk_match_count.png)
   - [Kontribusi Tim](visualizations/acl_team_contribution.png)
   - [Scatter Plot Interaktif](visualizations/acl_risk_training_interactive.html)
-- **/data/**: [collegiate_athlete_injury_dataset.csv](data/collegiate_athlete_injury_dataset.csv): Dataset mentah.
+- **/raw/**: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv): Dataset mentah.
 
 ## Recommendations
 - Program latihan AI quadriceps 3x/minggu untuk usia 20-25 tahun (kurangi risiko 57%, hemat $50,000 per kasus).
