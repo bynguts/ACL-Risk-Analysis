@@ -8,6 +8,16 @@ Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament
 - **Sumber**: Disediakan oleh Kaggle https://www.kaggle.com/datasets/ziya07/athlete-injury-and-performance-dataset
 - **Deskripsi**: Dataset berisi 200 entri dengan kolom seperti `ACL_Risk_Score`, `Age`, `Gender`, `Position`, `Training_Intensity`, dll., digunakan untuk mengidentifikasi faktor risiko ACL.
 
+## Analysis Process
+Proses analisis dilakukan secara sistematis dengan metode dan teknik berikut:
+- **Instalasi Paket**: Menggunakan `pip install` untuk menginstal `langchain`, `pandas`, `seaborn`, dan `plotly`, dipilih untuk mendukung integrasi LLM, manipulasi data, dan visualisasi dalam lingkungan Colab.
+- **Setup API dan LLM**: Konfigurasi API token dan inisialisasi IBM Granite via `Replicate`, dipilih untuk efisiensi analisis tanpa melatih model lokal pada dataset 200 entri.
+- **Load dan Eksplorasi Data**: Memuat dataset dengan `pd.read_csv()` dan menampilkan kolom, statistik, serta distribusi, dilakukan untuk memahami struktur data dan variabel kunci seperti `ACL_Risk_Score`.
+- **Setup Agent Pandas**: Membuat agen dengan `create_pandas_dataframe_agent`, digunakan untuk memanfaatkan Granite dalam menjalankan query dinamis berdasarkan pertanyaan alami.
+- **Eksekusi Query untuk Insight**: Menjalankan 10 *queries* dengan `python_repl_ast`, dipilih untuk fleksibilitas analisis kuantitatif tanpa kode manual.
+- **Visualisasi Data**: Membuat 8 visualisasi (histogram, scatter, heatmap) dengan Seaborn dan Plotly, diterapkan untuk menyajikan insight secara intuitif, termasuk interaktif via HTML.
+- **Summarisasi dan Rekomendasi**: Merangkum 10 insight dan 6 rekomendasi dalam `insights_summary.txt`, dilakukan untuk menyediakan output actionable dengan dukungan data eksternal.
+
 ## Insight & Findings
 - Rata-rata usia atlet berisiko tinggi 21 tahun: Menunjukkan kelompok usia muda sebagai fokus pencegahan.
 - 51% atlet laki-laki di posisi guard memiliki risiko ACL tinggi: Segmentasi gender dan posisi ini menggarisbawahi kerentanan tertentu.
