@@ -53,13 +53,19 @@ Proses ini didokumentasikan lengkap di notebook [ACL_Risk_Analysis.ipynb](ACL_Ri
   - [Scatter Plot Interaktif](visualizations/acl_risk_training_interactive.html)
 - **/raw/**: [collegiate_athlete_injury_dataset.csv](raw/collegiate_athlete_injury_dataset.csv): Dataset mentah.
 
-## Recommendations
-- Program latihan AI quadriceps 3x/minggu untuk usia 20-25 tahun (kurangi risiko 57%, hemat $50,000 per kasus).
-- Wearable AI untuk memantau `Training_Intensity` pada penyerang.
-- Screening MRI setiap 6 bulan untuk perempuan penyerang (60% berisiko).
-- AI scheduling: Batasi 2 pertandingan/minggu dengan 3 hari istirahat.
-- Protokol pemulihan dengan 3 hari istirahat antar event.
-- Sistem pencegahan terintegrasi berbasis AI untuk penyerang.
+## Conclusion & Recommendation
+
+### Conclusion
+Analisis risiko cedera ACL pada 200 atlet perguruan tinggi mengungkapkan bahwa kelompok usia 20-25 tahun, khususnya pria berusia 23 tahun di posisi Guard, memiliki risiko tertinggi (ACL_Risk_Score rata-rata 50.23). Intensitas latihan (korelasi 0.36) dan kelelahan (korelasi 0.65) terbukti meningkatkan risiko secara signifikan, sementara hari pemulihan yang lebih banyak (≥2 hari) meningkatkan skor risiko secara rata-rata (55.07), yang mungkin mencerminkan atlet yang lebih aktif. Frekuensi pertandingan menunjukkan korelasi lemah (0.18), tetapi kasus ekstrem seperti A120 (100 skor dengan 4 pertandingan/minggu) menegaskan perlunya pengaturan jadwal. Jeda istirahat antar event memiliki pengaruh minimal (-0.05), namun atlet dengan jeda singkat berisiko lebih tinggi dalam konteks tertentu. Cedera ACL juga memengaruhi kontribusi tim, terutama Guard (75.22), menyoroti kebutuhan pencegahan. Pendekatan berbasis AI ini dapat mengurangi risiko hingga 57% dan biaya pengobatan $20,000-$50,000 per kasus, sesuai data eksternal.
+
+### Recommendation
+Berdasarkan insight, berikut rekomendasi yang konkret, actionable, dan berdampak nyata:
+- **Program Latihan AI Quadriceps 3x/Minggu untuk Usia 20-25 Tahun**: Fokus pada pria berusia 23 tahun di posisi Guard dengan app seperti Physitrack (squats, lunges, leg curls, 30-45 menit/sesi). *Dampak*: Mengurangi risiko 57%, hemat $20,000-$50,000 per kasus, cegah absen 6-9 bulan.
+- **Wearable AI untuk Memantau Fatigue_Score**: Gunakan Whoop/Garmin untuk Guard pria, atur alarm Fatigue_Score >5 berdasarkan korelasi 0.65. *Dampak*: Kurangi absen 6-12 bulan dan biaya hingga $50,000 untuk atlet elit.
+- **Screening MRI 6 Bulan untuk Guard Pria**: Luncurkan program deteksi dini untuk pria berusia 23 tahun di posisi Guard. *Dampak*: Kurangi biaya $20,000-$50,000 dan absen 6-9 bulan per kasus.
+- **AI Scheduling Batasi 2 Pertandingan/Minggu**: Optimalkan jadwal untuk Guard dengan minimal 3 hari istirahat, fokus pada atlet seperti A120 (4 pertandingan). *Dampak*: Turunkan risiko 20% dan jaga performa tim.
+- **Protokol Pemulihan Minimal 3 Hari Istirahat Antar Event**: Terapkan untuk Guard dengan pemantauan HRV via wearable, berdasarkan kasus A001 (4 hari, 4 skor). *Dampak*: Kurangi absen 6-9 bulan dan kelelahan kronis.
+- **Sistem Pencegahan Terintegrasi untuk Guard**: Alokasikan sumber daya (latihan, screening) untuk Guard pria berisiko tinggi, mengingat kontribusi tim 75.22. *Dampak*: Hemat $50,000 per kasus dan pertahankan performa tim.
 
 ## How to Run
 1. **Clone repository**: `git clone https://github.com/bynguts/ACL-Risk-Analysis.git`
