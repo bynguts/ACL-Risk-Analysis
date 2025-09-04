@@ -1,6 +1,4 @@
-# ACL-Risk-Analysis
-
-# Capstone Project: Analisis Risiko Cedera ACL pada Atlet Perguruan Tinggi
+# ACL Risk Analysis: Analisis Risiko Cedera ACL pada Atlet Perguruan Tinggi
 
 ## Project Overview
 Proyek ini bertujuan untuk menganalisis risiko cedera Anterior Cruciate Ligament (ACL) pada atlet perguruan tinggi menggunakan dataset `collegiate_athlete_injury_dataset.csv` yang berisi 200 entri. Motivasi pribadi saya berasal dari pengalaman cedera ACL, yang meninggalkan trauma emosional, rasa marah, dan ketakutan untuk kembali bermain basket atau olahraga lainnya. Permasalahan spesifiknya adalah tingginya risiko cedera ACL akibat faktor seperti intensitas latihan dan jadwal pertandingan, yang sering diabaikan oleh atlet perguruan tinggi. Pengalaman ini mendorong saya untuk mengembangkan solusi data-driven guna mengurangi risiko atlet lain menghadapi tantangan serupa. Pendekatan ini menggunakan IBM Granite untuk menggali 10 insight kuantitatif, diikuti visualisasi dengan Pandas, Seaborn, dan Plotly (termasuk plot interaktif HTML), dengan hasil disusun dalam `insights_summary.txt` beserta 6 rekomendasi berbasis AI.
